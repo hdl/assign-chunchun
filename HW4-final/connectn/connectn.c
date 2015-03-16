@@ -43,7 +43,8 @@ char * create_board(int num_rows, int num_columns){
 
 
 int tie_game(char *board, int num_rows, int num_columns){
-    for(int i=0; i<num_columns*num_rows; i++)
+    int i=0;
+    for(i=0; i<num_columns*num_rows; i++)
         if(board[i]=='*')
             return 0;
     return 1;

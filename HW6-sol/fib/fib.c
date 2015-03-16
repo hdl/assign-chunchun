@@ -34,6 +34,7 @@ int main(int argc, char *argv[]){
     //atoi() convert string to int
     int prev;
     printf("The %dth fibanocci number is %d.", n, fib(n, &prev));
+    return 0;
 }
 
 

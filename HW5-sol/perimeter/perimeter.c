@@ -27,7 +27,8 @@ int main(int argc, char *argv[]){
 
     double result=0;
     double a, b;
-    for(int i=0; i<=n-2; i++){
+    int i=0;
+    for(i=0; i<=n-2; i++){
         a = buffer[i+1].x - buffer[i].x;
         b = buffer[i+1].y - buffer[i].y;
         result = result + sqrt(a*a + b*b);
